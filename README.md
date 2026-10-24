@@ -53,6 +53,7 @@ Annotations are used only to calculate evaluation metrics. Results are written t
 | `--methods SC_PLS` | Runs SC-PLS selection using the supplied calibration models and acceptance threshold. |
 | `--annotations` | Path to ground-truth COCO JSON annotations; required only for evaluation. |
 | `--dataset custom` | Selects evaluation on your own annotated dataset. |
+| `--methods all` | Runs all six methods: Detector-only, Score-only, BOX_JITTER, CONSISTENCY, SC-PLS, and SC-PLS + consistency. |
 
 Accepted detections are predictions, not guaranteed ground truth, and may require human review.
 
