@@ -55,3 +55,8 @@ Annotations are used only to calculate evaluation metrics. Results are written t
 | `--dataset custom` | Selects evaluation on your own annotated dataset. |
 
 Accepted detections are predictions, not guaranteed ground truth, and may require human review.
+
+
+## Dataset acknowledgement
+
+The detector was fine-tuned on [FishDet-M](https://huggingface.co/datasets/GE9X/FishDet-M), introduced by Muayad Abujabal, Lyes Saad Saoud, and Irfan Hussain ([2025](https://arxiv.org/abs/2507.17859)). The SC-PLS reliability models were fitted using FishDet-M validation data. The dataset distribution page lists [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) as its license. FishDet-M images and annotations are not redistributed in this repository.
