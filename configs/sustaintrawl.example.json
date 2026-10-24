@@ -1,0 +1,8 @@
+{
+  "dataset": "sustaintrawl",
+  "images": "C:/datasets/SustainTrawl/images",
+  "annotations": "C:/datasets/SustainTrawl/Annotations.json",
+  "device": "cuda:0",
+  "methods": "all",
+  "output": "runs/sustaintrawl_primary"
+}

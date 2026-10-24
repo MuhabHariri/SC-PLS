@@ -1,0 +1,182 @@
+{
+  "tefimo": {
+    "dataset": {
+      "images": 2831,
+      "fish_boxes": 3712,
+      "empty_images": 328,
+      "semantic_sha256": "f4152abc44228a74ddd01fbd3778251ebbb2542dbaf59658e585ab872305d68e",
+      "annotation_file_sha256": "2ab87acc5af2f4d71aeb5ebf0a8b3f4049eab2b4a0511f8cbaad3e0ca527a9f0"
+    },
+    "methods": {
+      "DETECTOR_ONLY": {
+        "tp": 3201,
+        "fp": 4753,
+        "fn": 511,
+        "hs_fp": 3150,
+        "accepted_boxes": 7954,
+        "precision": 0.4024390243902439,
+        "recall": 0.8623383620689655,
+        "f1": 0.5487742156694668,
+        "COCO_AP50": 0.7019646163531628,
+        "COCO_AP50_95": 0.44471493489131647,
+        "ordered_rows_sha256": "de33832cd75761c60d733e6122dc1a35705b8bf2b5c5a53f5437619193375e7f"
+      },
+      "SCORE_ONLY": {
+        "tp": 3120,
+        "fp": 3665,
+        "fn": 592,
+        "hs_fp": 3150,
+        "accepted_boxes": 6785,
+        "precision": 0.45983787767133383,
+        "recall": 0.8405172413793104,
+        "f1": 0.594455558731066,
+        "COCO_AP50": 0.6936359879343159,
+        "COCO_AP50_95": 0.43902835977915444,
+        "ordered_rows_sha256": "cdd1e23b822d11a33d35af7251aebb866274f935283ddd9ddf214d523fb00f44"
+      },
+      "BOX_JITTER": {
+        "tp": 3184,
+        "fp": 4504,
+        "fn": 528,
+        "hs_fp": 3064,
+        "accepted_boxes": 7688,
+        "precision": 0.4141519250780437,
+        "recall": 0.8577586206896551,
+        "f1": 0.5585964912280702,
+        "COCO_AP50": 0.6976359826113395,
+        "COCO_AP50_95": 0.4436622730878577,
+        "ordered_rows_sha256": "7fd570150c63f1fada8a66869418bbd9f80386c9cdb680c7c6beb318d0045d41"
+      },
+      "CONSISTENCY": {
+        "tp": 3173,
+        "fp": 4500,
+        "fn": 539,
+        "hs_fp": 3051,
+        "accepted_boxes": 7673,
+        "precision": 0.4135279551674704,
+        "recall": 0.8547952586206896,
+        "f1": 0.5574000878348705,
+        "COCO_AP50": 0.6976547108022932,
+        "COCO_AP50_95": 0.44288784840613327,
+        "ordered_rows_sha256": "ed4a1db2b581642198673303a8bf935033dd46bc1b025710c4d94d9b901188c9"
+      },
+      "SC_PLS": {
+        "tp": 3003,
+        "fp": 2735,
+        "fn": 709,
+        "hs_fp": 2713,
+        "accepted_boxes": 5738,
+        "precision": 0.5233530846985012,
+        "recall": 0.8089978448275862,
+        "f1": 0.6355555555555555,
+        "COCO_AP50": 0.674143730333165,
+        "COCO_AP50_95": 0.4306600613745107,
+        "ordered_rows_sha256": "13a9dab70db8a305db6ca75761bb5c0420cd1923d685dab7618694c46383c327"
+      },
+      "SC_PLS_CONSISTENCY": {
+        "tp": 2981,
+        "fp": 2592,
+        "fn": 731,
+        "hs_fp": 2559,
+        "accepted_boxes": 5573,
+        "precision": 0.5349004127041092,
+        "recall": 0.8030711206896551,
+        "f1": 0.6421109316101239,
+        "COCO_AP50": 0.6741335657621512,
+        "COCO_AP50_95": 0.4279027179194614,
+        "ordered_rows_sha256": "2deb917973359dd27f94472646f5a6cae7c0f821b72555ffe57f3fcd922aabce"
+      }
+    },
+    "candidate_gate": 0.3
+  },
+  "sustaintrawl": {
+    "dataset": {
+      "images": 5600,
+      "fish_boxes": 21545,
+      "empty_images": 49,
+      "semantic_sha256": "09635a10c860b9b058bd2f6d1a99ee145f2e55a751b795dd3df3bbdddba6cc7a",
+      "annotation_file_sha256": "05e943a0b8635b3fbbb0dc7ca2e9f318efa5b727598c16f6763c7dfaab3ff4bf"
+    },
+    "methods": {
+      "DETECTOR_ONLY": {
+        "tp": 10215,
+        "fp": 4920,
+        "fn": 11330,
+        "hs_fp": 2604,
+        "accepted_boxes": 15135,
+        "precision": 0.6749256689791873,
+        "recall": 0.47412392666511954,
+        "f1": 0.556979280261723,
+        "COCO_AP50": 0.41553192438287573,
+        "COCO_AP50_95": 0.2410028525353903,
+        "ordered_rows_sha256": "725218468f0e2c403d24d5f97d9d64006e58776a18307866daa271b068457630"
+      },
+      "SCORE_ONLY": {
+        "tp": 9184,
+        "fp": 3328,
+        "fn": 12361,
+        "hs_fp": 2604,
+        "accepted_boxes": 12512,
+        "precision": 0.7340153452685422,
+        "recall": 0.42627059642608495,
+        "f1": 0.5393311213553749,
+        "COCO_AP50": 0.3806019717592946,
+        "COCO_AP50_95": 0.2239952723531148,
+        "ordered_rows_sha256": "1edad460998b28dfaddcf95bc57134ab7d950f76d6110756b65f40896ff39731"
+      },
+      "BOX_JITTER": {
+        "tp": 10108,
+        "fp": 4665,
+        "fn": 11437,
+        "hs_fp": 2519,
+        "accepted_boxes": 14773,
+        "precision": 0.6842212143775808,
+        "recall": 0.4691575771640752,
+        "f1": 0.5566385814196817,
+        "COCO_AP50": 0.4091935507589536,
+        "COCO_AP50_95": 0.24021387578996156,
+        "ordered_rows_sha256": "48cc2589b6fb854a7c59a01942bdf170610105d0e593b01c36781399b807e2be"
+      },
+      "CONSISTENCY": {
+        "tp": 9911,
+        "fp": 4378,
+        "fn": 11634,
+        "hs_fp": 2362,
+        "accepted_boxes": 14289,
+        "precision": 0.6936104695919938,
+        "recall": 0.4600139243443955,
+        "f1": 0.5531618016408997,
+        "COCO_AP50": 0.40967629224078755,
+        "COCO_AP50_95": 0.23758694868066157,
+        "ordered_rows_sha256": "b2e9195dc73102844516eb12f06fd50ab4e654617b7bceb9454b41343de7e587"
+      },
+      "SC_PLS": {
+        "tp": 8189,
+        "fp": 2379,
+        "fn": 13356,
+        "hs_fp": 2224,
+        "accepted_boxes": 10568,
+        "precision": 0.7748864496593489,
+        "recall": 0.3800881875145045,
+        "f1": 0.5100115218135958,
+        "COCO_AP50": 0.3504450308862403,
+        "COCO_AP50_95": 0.20626806365910538,
+        "ordered_rows_sha256": "4d7d9e37067747dd6249b8661daa52cb3a68b8d66f96946fc96e7b6c284346d7"
+      },
+      "SC_PLS_CONSISTENCY": {
+        "tp": 8014,
+        "fp": 2175,
+        "fn": 13531,
+        "hs_fp": 1988,
+        "accepted_boxes": 10189,
+        "precision": 0.7865344979880263,
+        "recall": 0.3719656532838245,
+        "f1": 0.5050734228272514,
+        "COCO_AP50": 0.34319458215416393,
+        "COCO_AP50_95": 0.20473048999419247,
+        "ordered_rows_sha256": "06f829996a4558cab142e09ac9c8d1d986c3475a95b48dceb1005f1a7a87cf5f"
+      }
+    },
+    "candidate_gate": 0.3
+  }
+}

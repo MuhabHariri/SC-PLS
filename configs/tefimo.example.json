@@ -1,0 +1,8 @@
+{
+  "dataset": "tefimo",
+  "images": "C:/datasets/TEFIMO/images",
+  "annotations": "C:/datasets/TEFIMO/Annotations.json",
+  "device": "cuda:0",
+  "methods": "all",
+  "output": "runs/tefimo_primary"
+}
